@@ -30,7 +30,8 @@ void ClientAction::sendActionPackets() {
     cout << ">";
     getline(cin, userInput);
     if (userInput.size() > 0) {
-        int sendRes = send(network->ConnectSocket, userInput.c_str(), userInput.size(), 0);
+        int sendRes = NetworkServices::sendMessage(network->ConnectSocket,(char *)userInput.c_str(),userInput.size());
+        //int sendRes = send(network->ConnectSocket, userInput.c_str(), userInput.size(), 0);
         if (sendRes != SOCKET_ERROR) {
             ClientAction::receiveData();
         }

@@ -44,18 +44,6 @@ int private_decrypt(unsigned char *enc_data, int data_len, char *file_name_key, 
 }
 
 
-//int private_encrypt(unsigned char *data, int data_len, unsigned char *key, unsigned char *encrypted) {
-//    RSA *rsa = createRSA(key, 0);
-//    int result = RSA_private_encrypt(data_len, data, encrypted, rsa, padding);
-//    return result;
-//}
-//
-//int public_decrypt(unsigned char *enc_data, int data_len, unsigned char *key, unsigned char *decrypted) {
-//    RSA *rsa = createRSA(key, 1);
-//    int result = RSA_public_decrypt(data_len, enc_data, decrypted, rsa, padding);
-//    return result;
-//}
-
 void printLastError(char *msg) {
     char *err = new char(130);
     ERR_load_crypto_strings();
