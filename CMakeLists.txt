@@ -3,6 +3,6 @@ project(Client)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(Client NetworkServices.cpp NetworkServices.h ClientNetwork.cpp ClientNetwork.h NetworkData.h ClientAction.cpp ClientAction.h)
+add_executable(Client main.cpp NetworkServices.cpp NetworkServices.h ClientNetwork.cpp ClientNetwork.h NetworkData.h ClientAction.cpp ClientAction.h)
 #main.cpp
 target_link_libraries(Client ws2_32)

@@ -101,6 +101,9 @@
 		<Unit filename="C:/Users/Misha/CLionProjects/Client/NetworkServices.h">
 			<Option target="Client"/>
 		</Unit>
+		<Unit filename="C:/Users/Misha/CLionProjects/Client/main.cpp">
+			<Option target="Client"/>
+		</Unit>
 		<Unit filename="C:/Users/Misha/CLionProjects/Client/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/Client.dir/main.cpp.obj"
   "CMakeFiles/Client.dir/NetworkServices.cpp.obj"
   "CMakeFiles/Client.dir/ClientNetwork.cpp.obj"
   "CMakeFiles/Client.dir/ClientAction.cpp.obj"

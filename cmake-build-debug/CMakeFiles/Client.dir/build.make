@@ -56,9 +56,33 @@ include CMakeFiles/Client.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Client.dir/flags.make
 
+CMakeFiles/Client.dir/main.cpp.obj: CMakeFiles/Client.dir/flags.make
+CMakeFiles/Client.dir/main.cpp.obj: ../main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Misha\CLionProjects\Client\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Client.dir/main.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-7~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Client.dir\main.cpp.obj -c C:\Users\Misha\CLionProjects\Client\main.cpp
+
+CMakeFiles/Client.dir/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Client.dir/main.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-7~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Misha\CLionProjects\Client\main.cpp > CMakeFiles\Client.dir\main.cpp.i
+
+CMakeFiles/Client.dir/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Client.dir/main.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-7~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Misha\CLionProjects\Client\main.cpp -o CMakeFiles\Client.dir\main.cpp.s
+
+CMakeFiles/Client.dir/main.cpp.obj.requires:
+
+.PHONY : CMakeFiles/Client.dir/main.cpp.obj.requires
+
+CMakeFiles/Client.dir/main.cpp.obj.provides: CMakeFiles/Client.dir/main.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\Client.dir\build.make CMakeFiles/Client.dir/main.cpp.obj.provides.build
+.PHONY : CMakeFiles/Client.dir/main.cpp.obj.provides
+
+CMakeFiles/Client.dir/main.cpp.obj.provides.build: CMakeFiles/Client.dir/main.cpp.obj
+
+
 CMakeFiles/Client.dir/NetworkServices.cpp.obj: CMakeFiles/Client.dir/flags.make
 CMakeFiles/Client.dir/NetworkServices.cpp.obj: ../NetworkServices.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Misha\CLionProjects\Client\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Client.dir/NetworkServices.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Misha\CLionProjects\Client\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Client.dir/NetworkServices.cpp.obj"
 	C:\PROGRA~2\MINGW-~1\I686-7~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Client.dir\NetworkServices.cpp.obj -c C:\Users\Misha\CLionProjects\Client\NetworkServices.cpp
 
 CMakeFiles/Client.dir/NetworkServices.cpp.i: cmake_force
@@ -82,7 +106,7 @@ CMakeFiles/Client.dir/NetworkServices.cpp.obj.provides.build: CMakeFiles/Client.
 
 CMakeFiles/Client.dir/ClientNetwork.cpp.obj: CMakeFiles/Client.dir/flags.make
 CMakeFiles/Client.dir/ClientNetwork.cpp.obj: ../ClientNetwork.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Misha\CLionProjects\Client\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Client.dir/ClientNetwork.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Misha\CLionProjects\Client\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Client.dir/ClientNetwork.cpp.obj"
 	C:\PROGRA~2\MINGW-~1\I686-7~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Client.dir\ClientNetwork.cpp.obj -c C:\Users\Misha\CLionProjects\Client\ClientNetwork.cpp
 
 CMakeFiles/Client.dir/ClientNetwork.cpp.i: cmake_force
@@ -106,7 +130,7 @@ CMakeFiles/Client.dir/ClientNetwork.cpp.obj.provides.build: CMakeFiles/Client.di
 
 CMakeFiles/Client.dir/ClientAction.cpp.obj: CMakeFiles/Client.dir/flags.make
 CMakeFiles/Client.dir/ClientAction.cpp.obj: ../ClientAction.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Misha\CLionProjects\Client\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Client.dir/ClientAction.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Misha\CLionProjects\Client\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Client.dir/ClientAction.cpp.obj"
 	C:\PROGRA~2\MINGW-~1\I686-7~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Client.dir\ClientAction.cpp.obj -c C:\Users\Misha\CLionProjects\Client\ClientAction.cpp
 
 CMakeFiles/Client.dir/ClientAction.cpp.i: cmake_force
@@ -130,6 +154,7 @@ CMakeFiles/Client.dir/ClientAction.cpp.obj.provides.build: CMakeFiles/Client.dir
 
 # Object files for target Client
 Client_OBJECTS = \
+"CMakeFiles/Client.dir/main.cpp.obj" \
 "CMakeFiles/Client.dir/NetworkServices.cpp.obj" \
 "CMakeFiles/Client.dir/ClientNetwork.cpp.obj" \
 "CMakeFiles/Client.dir/ClientAction.cpp.obj"
@@ -137,6 +162,7 @@ Client_OBJECTS = \
 # External object files for target Client
 Client_EXTERNAL_OBJECTS =
 
+Client.exe: CMakeFiles/Client.dir/main.cpp.obj
 Client.exe: CMakeFiles/Client.dir/NetworkServices.cpp.obj
 Client.exe: CMakeFiles/Client.dir/ClientNetwork.cpp.obj
 Client.exe: CMakeFiles/Client.dir/ClientAction.cpp.obj
@@ -144,7 +170,7 @@ Client.exe: CMakeFiles/Client.dir/build.make
 Client.exe: CMakeFiles/Client.dir/linklibs.rsp
 Client.exe: CMakeFiles/Client.dir/objects1.rsp
 Client.exe: CMakeFiles/Client.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Misha\CLionProjects\Client\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable Client.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Misha\CLionProjects\Client\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable Client.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Client.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -152,6 +178,7 @@ CMakeFiles/Client.dir/build: Client.exe
 
 .PHONY : CMakeFiles/Client.dir/build
 
+CMakeFiles/Client.dir/requires: CMakeFiles/Client.dir/main.cpp.obj.requires
 CMakeFiles/Client.dir/requires: CMakeFiles/Client.dir/NetworkServices.cpp.obj.requires
 CMakeFiles/Client.dir/requires: CMakeFiles/Client.dir/ClientNetwork.cpp.obj.requires
 CMakeFiles/Client.dir/requires: CMakeFiles/Client.dir/ClientAction.cpp.obj.requires

@@ -15,3 +15,9 @@ CMakeFiles/Client.dir/ClientNetwork.cpp.obj: ../NetworkServices.h
 CMakeFiles/Client.dir/NetworkServices.cpp.obj: ../NetworkServices.cpp
 CMakeFiles/Client.dir/NetworkServices.cpp.obj: ../NetworkServices.h
 
+CMakeFiles/Client.dir/main.cpp.obj: ../ClientAction.h
+CMakeFiles/Client.dir/main.cpp.obj: ../ClientNetwork.h
+CMakeFiles/Client.dir/main.cpp.obj: ../NetworkData.h
+CMakeFiles/Client.dir/main.cpp.obj: ../NetworkServices.h
+CMakeFiles/Client.dir/main.cpp.obj: ../main.cpp
+

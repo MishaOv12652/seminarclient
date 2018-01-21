@@ -15,3 +15,9 @@ CMakeFiles/Client.dir/ClientNetwork.cpp.obj
 CMakeFiles/Client.dir/NetworkServices.cpp.obj
  C:/Users/Misha/CLionProjects/Client/NetworkServices.cpp
  C:/Users/Misha/CLionProjects/Client/NetworkServices.h
+CMakeFiles/Client.dir/main.cpp.obj
+ C:/Users/Misha/CLionProjects/Client/ClientAction.h
+ C:/Users/Misha/CLionProjects/Client/ClientNetwork.h
+ C:/Users/Misha/CLionProjects/Client/NetworkData.h
+ C:/Users/Misha/CLionProjects/Client/NetworkServices.h
+ C:/Users/Misha/CLionProjects/Client/main.cpp
