@@ -47,10 +47,10 @@ RM = "C:\Program Files\JetBrains\CLion 2017.3.1\bin\cmake\bin\cmake.exe" -E remo
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Misha\CLionProjects\seminarclient
+CMAKE_SOURCE_DIR = C:\Users\Misha\CLionProjects\Client
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Misha\CLionProjects\seminarclient\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\Misha\CLionProjects\Client\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -79,9 +79,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Misha\CLionProjects\seminarclient\cmake-build-debug\CMakeFiles C:\Users\Misha\CLionProjects\seminarclient\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Misha\CLionProjects\Client\cmake-build-debug\CMakeFiles C:\Users\Misha\CLionProjects\Client\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Misha\CLionProjects\seminarclient\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Misha\CLionProjects\Client\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -176,32 +176,32 @@ ClientNetwork.cpp.s:
 	$(MAKE) -f CMakeFiles\Client.dir\build.make CMakeFiles/Client.dir/ClientNetwork.cpp.s
 .PHONY : ClientNetwork.cpp.s
 
-EncDEcrypt.obj: EncDEcrypt.cpp.obj
+DecEnc.obj: DecEnc.cpp.obj
 
-.PHONY : EncDEcrypt.obj
+.PHONY : DecEnc.obj
 
 # target to build an object file
-EncDEcrypt.cpp.obj:
-	$(MAKE) -f CMakeFiles\Client.dir\build.make CMakeFiles/Client.dir/EncDEcrypt.cpp.obj
-.PHONY : EncDEcrypt.cpp.obj
+DecEnc.cpp.obj:
+	$(MAKE) -f CMakeFiles\Client.dir\build.make CMakeFiles/Client.dir/DecEnc.cpp.obj
+.PHONY : DecEnc.cpp.obj
 
-EncDEcrypt.i: EncDEcrypt.cpp.i
+DecEnc.i: DecEnc.cpp.i
 
-.PHONY : EncDEcrypt.i
+.PHONY : DecEnc.i
 
 # target to preprocess a source file
-EncDEcrypt.cpp.i:
-	$(MAKE) -f CMakeFiles\Client.dir\build.make CMakeFiles/Client.dir/EncDEcrypt.cpp.i
-.PHONY : EncDEcrypt.cpp.i
+DecEnc.cpp.i:
+	$(MAKE) -f CMakeFiles\Client.dir\build.make CMakeFiles/Client.dir/DecEnc.cpp.i
+.PHONY : DecEnc.cpp.i
 
-EncDEcrypt.s: EncDEcrypt.cpp.s
+DecEnc.s: DecEnc.cpp.s
 
-.PHONY : EncDEcrypt.s
+.PHONY : DecEnc.s
 
 # target to generate assembly for a file
-EncDEcrypt.cpp.s:
-	$(MAKE) -f CMakeFiles\Client.dir\build.make CMakeFiles/Client.dir/EncDEcrypt.cpp.s
-.PHONY : EncDEcrypt.cpp.s
+DecEnc.cpp.s:
+	$(MAKE) -f CMakeFiles\Client.dir\build.make CMakeFiles/Client.dir/DecEnc.cpp.s
+.PHONY : DecEnc.cpp.s
 
 NetworkServices.obj: NetworkServices.cpp.obj
 
@@ -272,9 +272,9 @@ help:
 	@echo ... ClientNetwork.obj
 	@echo ... ClientNetwork.i
 	@echo ... ClientNetwork.s
-	@echo ... EncDEcrypt.obj
-	@echo ... EncDEcrypt.i
-	@echo ... EncDEcrypt.s
+	@echo ... DecEnc.obj
+	@echo ... DecEnc.i
+	@echo ... DecEnc.s
 	@echo ... NetworkServices.obj
 	@echo ... NetworkServices.i
 	@echo ... NetworkServices.s
