@@ -6,57 +6,79 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Misha/CLionProjects/Client/ClientAction.cpp
+C:/Users/Misha/CLionProjects/seminarclient/ClientAction.cpp
 ClientAction.h
-C:/Users/Misha/CLionProjects/Client/ClientAction.h
+C:/Users/Misha/CLionProjects/seminarclient/ClientAction.h
+iostream
+-
 
-C:/Users/Misha/CLionProjects/Client/ClientAction.h
+C:/Users/Misha/CLionProjects/seminarclient/ClientAction.h
 winsock2.h
 -
 windows.h
 -
 ClientNetwork.h
-C:/Users/Misha/CLionProjects/Client/ClientNetwork.h
+C:/Users/Misha/CLionProjects/seminarclient/ClientNetwork.h
 NetworkData.h
-C:/Users/Misha/CLionProjects/Client/NetworkData.h
+C:/Users/Misha/CLionProjects/seminarclient/NetworkData.h
 
-C:/Users/Misha/CLionProjects/Client/ClientNetwork.cpp
+C:/Users/Misha/CLionProjects/seminarclient/ClientNetwork.cpp
 ClientNetwork.h
-C:/Users/Misha/CLionProjects/Client/ClientNetwork.h
+C:/Users/Misha/CLionProjects/seminarclient/ClientNetwork.h
 
-C:/Users/Misha/CLionProjects/Client/ClientNetwork.h
+C:/Users/Misha/CLionProjects/seminarclient/ClientNetwork.h
 winsock2.h
 -
 Windows.h
 -
 NetworkServices.h
-C:/Users/Misha/CLionProjects/Client/NetworkServices.h
+C:/Users/Misha/CLionProjects/seminarclient/NetworkServices.h
 ws2tcpip.h
 -
 stdio.h
 -
 NetworkData.h
-C:/Users/Misha/CLionProjects/Client/NetworkData.h
+C:/Users/Misha/CLionProjects/seminarclient/NetworkData.h
 
-C:/Users/Misha/CLionProjects/Client/NetworkData.h
+C:/Users/Misha/CLionProjects/seminarclient/EncDEcrypt.cpp
+EncDEcrypt.h
+C:/Users/Misha/CLionProjects/seminarclient/EncDEcrypt.h
+
+C:/Users/Misha/CLionProjects/seminarclient/EncDEcrypt.h
+tchar.h
+-
+stdio.h
+-
+windows.h
+-
+wincrypt.h
+-
+conio.h
+-
+
+C:/Users/Misha/CLionProjects/seminarclient/NetworkData.h
 string.h
 -
 
-C:/Users/Misha/CLionProjects/Client/NetworkServices.cpp
+C:/Users/Misha/CLionProjects/seminarclient/NetworkServices.cpp
 NetworkServices.h
-C:/Users/Misha/CLionProjects/Client/NetworkServices.h
+C:/Users/Misha/CLionProjects/seminarclient/NetworkServices.h
+string
+-
 
-C:/Users/Misha/CLionProjects/Client/NetworkServices.h
+C:/Users/Misha/CLionProjects/seminarclient/NetworkServices.h
 winsock2.h
 -
 Windows.h
 -
+string
+-
 
-C:/Users/Misha/CLionProjects/Client/main.cpp
+C:/Users/Misha/CLionProjects/seminarclient/main.cpp
 iostream
 -
 ClientAction.h
-C:/Users/Misha/CLionProjects/Client/ClientAction.h
+C:/Users/Misha/CLionProjects/seminarclient/ClientAction.h
 process.h
 -
 

@@ -28,7 +28,7 @@ ClientNetwork::ClientNetwork(void)
 
     // set address info
     ZeroMemory( &hints, sizeof(hints) );
-    hints.ai_family = AF_UNSPEC;
+    hints.ai_family = AF_INET;//AF_UNSPEC;
     hints.ai_socktype = SOCK_STREAM;
     hints.ai_protocol = IPPROTO_TCP;  //TCP connection!!!
 

@@ -7,7 +7,8 @@
 #pragma once
 #include <winsock2.h>
 #include <Windows.h>
-
+#include <string>
+using namespace std;
 
 class NetworkServices {
 public:

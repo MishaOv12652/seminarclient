@@ -3,6 +3,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Client.dir/NetworkServices.cpp.obj"
   "CMakeFiles/Client.dir/ClientNetwork.cpp.obj"
   "CMakeFiles/Client.dir/ClientAction.cpp.obj"
+  "CMakeFiles/Client.dir/EncDEcrypt.cpp.obj"
   "Client.pdb"
   "Client.exe"
   "Client.exe.manifest"

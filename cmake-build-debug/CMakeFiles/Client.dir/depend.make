@@ -12,6 +12,9 @@ CMakeFiles/Client.dir/ClientNetwork.cpp.obj: ../ClientNetwork.h
 CMakeFiles/Client.dir/ClientNetwork.cpp.obj: ../NetworkData.h
 CMakeFiles/Client.dir/ClientNetwork.cpp.obj: ../NetworkServices.h
 
+CMakeFiles/Client.dir/EncDEcrypt.cpp.obj: ../EncDEcrypt.cpp
+CMakeFiles/Client.dir/EncDEcrypt.cpp.obj: ../EncDEcrypt.h
+
 CMakeFiles/Client.dir/NetworkServices.cpp.obj: ../NetworkServices.cpp
 CMakeFiles/Client.dir/NetworkServices.cpp.obj: ../NetworkServices.h
 

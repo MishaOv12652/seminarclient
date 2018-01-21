@@ -12,8 +12,8 @@
 
 class ClientAction {
 public:
-    ClientAction(void);
-    ~ClientAction(void);
+    ClientAction();
+    ~ClientAction();
 
     ClientNetwork* network;
 
@@ -22,6 +22,9 @@ public:
     char network_data[MAX_PACKET_SIZE];
 
     void update();
+    void receiveData();
+    void sendData();
+
 };
 
 
