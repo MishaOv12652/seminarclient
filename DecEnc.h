@@ -8,6 +8,7 @@
 #include <openssl/err.h>
 
 class DecEnc {
+    DecEnc();
     RSA *createRSAWithFilename(char *filename, int i);
     int public_encrypt(unsigned char *data, int data_len, unsigned char *key, unsigned char *encrypted);
     int private_decrypt(unsigned char *enc_data, int data_len, unsigned char *key, unsigned char *decrypted);

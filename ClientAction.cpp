@@ -15,6 +15,10 @@ ClientAction::ClientAction() {
 ClientAction::~ClientAction() {
 }
 
+string ClientAction::getPubKeyFromServer() {
+    int data_length = network->receivePackets(network_data);
+    return string(network_data, 0, data_length);
+}
 
 void ClientAction::receiveData() {
     int data_length = network->receivePackets(network_data);
@@ -30,8 +34,8 @@ void ClientAction::sendActionPackets() {
     cout << ">";
     getline(cin, userInput);
     if (userInput.size() > 0) {
-        int sendRes = NetworkServices::sendMessage(network->ConnectSocket,(char *)userInput.c_str(),userInput.size());
-        //int sendRes = send(network->ConnectSocket, userInput.c_str(), userInput.size(), 0);
+        int sendRes = NetworkServices::sendMessage(network->ConnectSocket, (char *) userInput.c_str(),
+                                                   userInput.size());
         if (sendRes != SOCKET_ERROR) {
             ClientAction::receiveData();
         }

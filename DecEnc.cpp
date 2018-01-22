@@ -12,6 +12,7 @@
 #include <stdio.h>
 
 int padding = RSA_PKCS1_PADDING;
+DecEnc::DecEnc() {};
 
 RSA *createRSA(char *filename, int pub) {
     FILE *fp = fopen(filename, "rb");

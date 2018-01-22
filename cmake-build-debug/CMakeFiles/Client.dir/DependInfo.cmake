@@ -4,11 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/Misha/CLionProjects/Client/ClientAction.cpp" "C:/Users/Misha/CLionProjects/Client/cmake-build-debug/CMakeFiles/Client.dir/ClientAction.cpp.obj"
-  "C:/Users/Misha/CLionProjects/Client/ClientNetwork.cpp" "C:/Users/Misha/CLionProjects/Client/cmake-build-debug/CMakeFiles/Client.dir/ClientNetwork.cpp.obj"
-  "C:/Users/Misha/CLionProjects/Client/DecEnc.cpp" "C:/Users/Misha/CLionProjects/Client/cmake-build-debug/CMakeFiles/Client.dir/DecEnc.cpp.obj"
-  "C:/Users/Misha/CLionProjects/Client/NetworkServices.cpp" "C:/Users/Misha/CLionProjects/Client/cmake-build-debug/CMakeFiles/Client.dir/NetworkServices.cpp.obj"
-  "C:/Users/Misha/CLionProjects/Client/main.cpp" "C:/Users/Misha/CLionProjects/Client/cmake-build-debug/CMakeFiles/Client.dir/main.cpp.obj"
+  "C:/Users/Misha/CLionProjects/seminarclient/ClientAction.cpp" "C:/Users/Misha/CLionProjects/seminarclient/cmake-build-debug/CMakeFiles/Client.dir/ClientAction.cpp.obj"
+  "C:/Users/Misha/CLionProjects/seminarclient/ClientNetwork.cpp" "C:/Users/Misha/CLionProjects/seminarclient/cmake-build-debug/CMakeFiles/Client.dir/ClientNetwork.cpp.obj"
+  "C:/Users/Misha/CLionProjects/seminarclient/DecEnc.cpp" "C:/Users/Misha/CLionProjects/seminarclient/cmake-build-debug/CMakeFiles/Client.dir/DecEnc.cpp.obj"
+  "C:/Users/Misha/CLionProjects/seminarclient/NetworkServices.cpp" "C:/Users/Misha/CLionProjects/seminarclient/cmake-build-debug/CMakeFiles/Client.dir/NetworkServices.cpp.obj"
+  "C:/Users/Misha/CLionProjects/seminarclient/main.cpp" "C:/Users/Misha/CLionProjects/seminarclient/cmake-build-debug/CMakeFiles/Client.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
