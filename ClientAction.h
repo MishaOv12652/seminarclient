@@ -22,7 +22,7 @@ public:
 
     char *getPubKeyFromServer();
 
-    void sendActionPackets(string pub_key);
+    void sendActionPackets(unsigned char* pub_key);
 
     char network_data[MAX_PACKET_SIZE];
 

@@ -31,7 +31,7 @@ void ClientAction::receiveData() {
 }
 
 
-void ClientAction::sendActionPackets(string pub_key) {
+void ClientAction::sendActionPackets(unsigned char* pub_key) {
     DecEnc decenc;
     char encrypted[2048] = {};
     string userInput;
@@ -40,9 +40,9 @@ void ClientAction::sendActionPackets(string pub_key) {
     if (userInput.size() > 0) {
         int encrypted_length = decenc.public_encrypt((unsigned char *) userInput.c_str(),
                                                      sizeof((unsigned char *) userInput.c_str()),
-                                                     ( unsigned char *) pub_key.c_str(), (unsigned char *) encrypted);
+                                                     pub_key, (unsigned char *) encrypted);
         int sendRes = NetworkServices::sendMessage(network->ConnectSocket, (char *) encrypted,
-                                                   sizeof(encrypted));
+                                                   encrypted_length);
         if (sendRes != SOCKET_ERROR) {
             ClientAction::receiveData();
         }

@@ -5,13 +5,13 @@
 #include "DecEnc.h"
 #include <string>
 
-int padding = RSA_PKCS1_PADDING;
+int padding = RSA_PKCS1_OAEP_PADDING;//RSA_PKCS1_PADDING;
 using namespace std;
 
 DecEnc::DecEnc() {};
 
 RSA *DecEnc::createRSA(unsigned char *key, int pub) {
-    RSA *rsa = NULL;
+    RSA *rsa = RSA_new();
     BIO *keybio;
     keybio = BIO_new_mem_buf(key, -1);
     if (keybio == NULL) {

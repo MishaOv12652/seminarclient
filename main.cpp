@@ -13,7 +13,7 @@ int main(int argc, char* argv[]) {
          pub_rsa_string = client->getPubKeyFromServer();
     }while (pub_rsa_string.length()==0);
     cout << "got pub key from server" << pub_rsa_string << endl;
-    client->sendActionPackets(pub_rsa_string);
+    client->sendActionPackets((unsigned char*)pub_rsa_string.c_str());
 
 
     while(true)
