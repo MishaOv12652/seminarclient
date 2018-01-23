@@ -413,6 +413,8 @@ ClientNetwork.h
 C:/Users/Misha/CLionProjects/seminarclient/ClientNetwork.h
 NetworkData.h
 C:/Users/Misha/CLionProjects/seminarclient/NetworkData.h
+openssl/rsa.h
+-
 sstream
 -
 

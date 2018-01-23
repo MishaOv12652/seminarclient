@@ -21,7 +21,13 @@ RSA *DecEnc::createRSA(unsigned char *key, int pub) {
     if (pub) {
         rsa = PEM_read_bio_RSA_PUBKEY(keybio, &rsa, NULL, NULL);
     } else {
-        rsa = PEM_read_bio_RSAPrivateKey(keybio, &rsa, NULL, NULL);
+        FILE *fp = fopen((char*)key,"rb");
+        if(fp==NULL){
+            printf("Unable to open file %s \n", key);
+            return NULL;
+        }
+        //rsa = PEM_read_bio_RSAPrivateKey(keybio, &rsa, NULL, NULL);
+        rsa = PEM_read_RSAPrivateKey(fp, &rsa, NULL, NULL);
     }
     if (rsa == NULL) {
         printf("Failed to create RSA");
@@ -29,6 +35,7 @@ RSA *DecEnc::createRSA(unsigned char *key, int pub) {
 
     return rsa;
 }
+
 
 int DecEnc::public_encrypt(unsigned char *data, int data_len, unsigned char *key, unsigned char *encrypted) {
     RSA *rsa = createRSA(key, 1);

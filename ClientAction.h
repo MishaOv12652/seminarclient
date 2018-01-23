@@ -10,23 +10,27 @@
 #include <windows.h>
 #include "ClientNetwork.h"
 #include "NetworkData.h"
+#include <openssl/rsa.h>
 #include <sstream>
 
 class ClientAction {
+private:
+    string pub_key;
+    string priv_key;
 public:
     ClientAction();
 
     ~ClientAction();
 
     ClientNetwork *network;
-
+    char *getPrivKeyDest();
     char *getPubKeyFromServer();
 
-    void sendActionPackets(unsigned char* pub_key);
+    void sendActionPackets(unsigned char* pub_key,int save);
 
     char network_data[MAX_PACKET_SIZE];
 
-    void receiveData(unsigned char* pub_key);
+    void receiveData(int save);
 
 };
 

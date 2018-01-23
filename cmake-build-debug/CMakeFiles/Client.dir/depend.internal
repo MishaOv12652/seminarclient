@@ -135,6 +135,19 @@ CMakeFiles/Client.dir/NetworkServices.cpp.obj
  C:/Users/Misha/CLionProjects/seminarclient/NetworkServices.cpp
  C:/Users/Misha/CLionProjects/seminarclient/NetworkServices.h
 CMakeFiles/Client.dir/main.cpp.obj
+ C:/OpenSSL-Win32/include/openssl/asn1.h
+ C:/OpenSSL-Win32/include/openssl/bio.h
+ C:/OpenSSL-Win32/include/openssl/bn.h
+ C:/OpenSSL-Win32/include/openssl/crypto.h
+ C:/OpenSSL-Win32/include/openssl/e_os2.h
+ C:/OpenSSL-Win32/include/openssl/ebcdic.h
+ C:/OpenSSL-Win32/include/openssl/opensslconf.h
+ C:/OpenSSL-Win32/include/openssl/opensslv.h
+ C:/OpenSSL-Win32/include/openssl/ossl_typ.h
+ C:/OpenSSL-Win32/include/openssl/rsa.h
+ C:/OpenSSL-Win32/include/openssl/safestack.h
+ C:/OpenSSL-Win32/include/openssl/stack.h
+ C:/OpenSSL-Win32/include/openssl/symhacks.h
  C:/Users/Misha/CLionProjects/seminarclient/ClientAction.h
  C:/Users/Misha/CLionProjects/seminarclient/ClientNetwork.h
  C:/Users/Misha/CLionProjects/seminarclient/NetworkData.h
