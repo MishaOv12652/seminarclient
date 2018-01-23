@@ -39,9 +39,9 @@ void ClientAction::sendActionPackets(unsigned char* pub_key) {
     getline(cin, userInput);
     if (userInput.size() > 0) {
         int encrypted_length = decenc.public_encrypt((unsigned char *) userInput.c_str(),
-                                                     sizeof((unsigned char *) userInput.c_str()),
+                                                     strlen((char *) userInput.c_str()),
                                                      pub_key, (unsigned char *) encrypted);
-        int sendRes = NetworkServices::sendMessage(network->ConnectSocket, (char *) encrypted,
+        int sendRes = NetworkServices::sendMessage(network->ConnectSocket,  encrypted,
                                                    encrypted_length);
         if (sendRes != SOCKET_ERROR) {
             ClientAction::receiveData();
