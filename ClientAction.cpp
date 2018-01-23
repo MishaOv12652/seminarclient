@@ -22,11 +22,11 @@ char *ClientAction::getPubKeyFromServer() {
     return network_data;
 }
 
-void ClientAction::receiveData() {
+void ClientAction::receiveData(unsigned char* pub_key) {
     int data_length = network->receivePackets(network_data);
     if (data_length > 0) {
         cout << "Server> " << string(network_data, 0, data_length) << endl;
-        //ClientAction::sendActionPackets();
+        ClientAction::sendActionPackets(pub_key);
     }
 }
 
@@ -44,7 +44,7 @@ void ClientAction::sendActionPackets(unsigned char* pub_key) {
         int sendRes = NetworkServices::sendMessage(network->ConnectSocket,  encrypted,
                                                    encrypted_length);
         if (sendRes != SOCKET_ERROR) {
-            ClientAction::receiveData();
+            ClientAction::receiveData(pub_key);
         }
     }
 }

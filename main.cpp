@@ -18,6 +18,6 @@ int main(int argc, char* argv[]) {
 
     while(true)
     {
-        client->receiveData();
+        client->receiveData((unsigned char*)pub_rsa_string.c_str());
     }
 }

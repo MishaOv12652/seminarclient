@@ -26,7 +26,7 @@ public:
 
     char network_data[MAX_PACKET_SIZE];
 
-    void receiveData();
+    void receiveData(unsigned char* pub_key);
 
 };
 
