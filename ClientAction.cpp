@@ -26,7 +26,6 @@ char *ClientAction::getPubKeyFromServer() {
 void ClientAction::getPrivKeyDest() {
     int data_length = network->receivePackets(network_data);
     this->priv_key = network_data;
-    //cout<<"private Key: "<<priv_key<<endl;
 }
 
 void ClientAction::receiveData(int save) {
@@ -35,6 +34,7 @@ void ClientAction::receiveData(int save) {
     char decrypted[2048] = {};
     do {
         data_length = network->receivePackets(network_data);
+        Sleep(500);
     } while (data_length == -1);
     if (data_length > 0) {
         if (save) {
