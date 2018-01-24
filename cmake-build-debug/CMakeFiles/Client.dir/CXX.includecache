@@ -396,53 +396,55 @@ openssl/crypto.h
 openssl/symhacks.h
 -
 
-C:/Users/Misha/CLionProjects/seminarclient/ClientAction.cpp
+C:/Users/Misha/CLionProjects/Client/ClientAction.cpp
 ClientAction.h
-C:/Users/Misha/CLionProjects/seminarclient/ClientAction.h
+C:/Users/Misha/CLionProjects/Client/ClientAction.h
 DecEnc.h
-C:/Users/Misha/CLionProjects/seminarclient/DecEnc.h
+C:/Users/Misha/CLionProjects/Client/DecEnc.h
 iostream
 -
 
-C:/Users/Misha/CLionProjects/seminarclient/ClientAction.h
+C:/Users/Misha/CLionProjects/Client/ClientAction.h
 winsock2.h
 -
 windows.h
 -
 ClientNetwork.h
-C:/Users/Misha/CLionProjects/seminarclient/ClientNetwork.h
+C:/Users/Misha/CLionProjects/Client/ClientNetwork.h
 NetworkData.h
-C:/Users/Misha/CLionProjects/seminarclient/NetworkData.h
+C:/Users/Misha/CLionProjects/Client/NetworkData.h
 openssl/rsa.h
 -
 sstream
 -
 
-C:/Users/Misha/CLionProjects/seminarclient/ClientNetwork.cpp
+C:/Users/Misha/CLionProjects/Client/ClientNetwork.cpp
 ClientNetwork.h
-C:/Users/Misha/CLionProjects/seminarclient/ClientNetwork.h
+C:/Users/Misha/CLionProjects/Client/ClientNetwork.h
 
-C:/Users/Misha/CLionProjects/seminarclient/ClientNetwork.h
+C:/Users/Misha/CLionProjects/Client/ClientNetwork.h
 winsock2.h
 -
 Windows.h
 -
 NetworkServices.h
-C:/Users/Misha/CLionProjects/seminarclient/NetworkServices.h
+C:/Users/Misha/CLionProjects/Client/NetworkServices.h
 ws2tcpip.h
 -
 stdio.h
 -
 NetworkData.h
-C:/Users/Misha/CLionProjects/seminarclient/NetworkData.h
+C:/Users/Misha/CLionProjects/Client/NetworkData.h
 
-C:/Users/Misha/CLionProjects/seminarclient/DecEnc.cpp
+C:/Users/Misha/CLionProjects/Client/DecEnc.cpp
 DecEnc.h
-C:/Users/Misha/CLionProjects/seminarclient/DecEnc.h
+C:/Users/Misha/CLionProjects/Client/DecEnc.h
 string
 -
+direct.h
+-
 
-C:/Users/Misha/CLionProjects/seminarclient/DecEnc.h
+C:/Users/Misha/CLionProjects/Client/DecEnc.h
 openssl/pem.h
 -
 openssl/err.h
@@ -462,17 +464,17 @@ openssl/err.h
 stdio.h
 -
 
-C:/Users/Misha/CLionProjects/seminarclient/NetworkData.h
+C:/Users/Misha/CLionProjects/Client/NetworkData.h
 string.h
 -
 
-C:/Users/Misha/CLionProjects/seminarclient/NetworkServices.cpp
+C:/Users/Misha/CLionProjects/Client/NetworkServices.cpp
 NetworkServices.h
-C:/Users/Misha/CLionProjects/seminarclient/NetworkServices.h
+C:/Users/Misha/CLionProjects/Client/NetworkServices.h
 DecEnc.h
-C:/Users/Misha/CLionProjects/seminarclient/DecEnc.h
+C:/Users/Misha/CLionProjects/Client/DecEnc.h
 
-C:/Users/Misha/CLionProjects/seminarclient/NetworkServices.h
+C:/Users/Misha/CLionProjects/Client/NetworkServices.h
 winsock2.h
 -
 Windows.h
@@ -480,11 +482,11 @@ Windows.h
 string
 -
 
-C:/Users/Misha/CLionProjects/seminarclient/main.cpp
+C:/Users/Misha/CLionProjects/Client/main.cpp
 iostream
 -
 ClientAction.h
-C:/Users/Misha/CLionProjects/seminarclient/ClientAction.h
+C:/Users/Misha/CLionProjects/Client/ClientAction.h
 process.h
 -
 

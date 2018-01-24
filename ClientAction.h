@@ -23,7 +23,7 @@ public:
     ~ClientAction();
 
     ClientNetwork *network;
-    char *getPrivKeyDest();
+    void getPrivKeyDest();
     char *getPubKeyFromServer();
 
     void sendActionPackets(unsigned char* pub_key,int save);

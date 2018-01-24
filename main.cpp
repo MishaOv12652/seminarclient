@@ -6,6 +6,7 @@
 ClientAction * client;
 
 int main(int argc, char* argv[]) {
+    cout<<"argv[0]: "<< argv[0]<<endl;
     client = new ClientAction();
     //get Public Key
         string pub_rsa_string = "";

@@ -23,26 +23,32 @@ char *ClientAction::getPubKeyFromServer() {
     return network_data;
 }
 
-char *ClientAction::getPrivKeyDest(){
+void ClientAction::getPrivKeyDest() {
     int data_length = network->receivePackets(network_data);
     this->priv_key = network_data;
-    return network_data;
+    //cout<<"private Key: "<<priv_key<<endl;
 }
+
 void ClientAction::receiveData(int save) {
-    string pk;
     DecEnc decenc;
+    int data_length;
     char decrypted[2048] = {};
-    int data_length = network->receivePackets(network_data);
+    do {
+        data_length = network->receivePackets(network_data);
+    } while (data_length == -1);
     if (data_length > 0) {
         if (save) {
-            char * s = getPrivKeyDest();
-            sendActionPackets((unsigned char *)this->pub_key.c_str(),0);
-            return;
+            getPrivKeyDest();
+            sendActionPackets((unsigned char *) this->pub_key.c_str(), 0);
+            ClientAction::sendActionPackets((unsigned char *) this->pub_key.c_str(), 0);
+        } else {
+            int decrypted_length = decenc.private_decrypt((unsigned char *) network_data,data_length,
+                                                          (unsigned char *) priv_key.c_str(),
+                                                          (unsigned char *) decrypted);
+            cout << "Server> " << string(decrypted, 0, decrypted_length) << endl;
+            ClientAction::sendActionPackets((unsigned char *) this->pub_key.c_str(), save);
         }
-        string buf = string(network_data, 0, data_length);
-        int decrypted_length = decenc.private_decrypt((unsigned char*)buf.c_str(),strlen(buf.c_str()),(unsigned char*)this->priv_key.c_str(),(unsigned char*)decrypted);
-        cout << "Server> " << string(decrypted, 0, decrypted_length) << endl;
-        ClientAction::sendActionPackets((unsigned char *)this->pub_key.c_str(),save);
+
     }
 }
 

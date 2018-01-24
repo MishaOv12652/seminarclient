@@ -40,17 +40,17 @@ CMakeFiles/Client.dir/ClientAction.cpp.obj
  C:/OpenSSL-Win32/include/openssl/tls1.h
  C:/OpenSSL-Win32/include/openssl/x509.h
  C:/OpenSSL-Win32/include/openssl/x509_vfy.h
- C:/Users/Misha/CLionProjects/seminarclient/ClientAction.cpp
- C:/Users/Misha/CLionProjects/seminarclient/ClientAction.h
- C:/Users/Misha/CLionProjects/seminarclient/ClientNetwork.h
- C:/Users/Misha/CLionProjects/seminarclient/DecEnc.h
- C:/Users/Misha/CLionProjects/seminarclient/NetworkData.h
- C:/Users/Misha/CLionProjects/seminarclient/NetworkServices.h
+ C:/Users/Misha/CLionProjects/Client/ClientAction.cpp
+ C:/Users/Misha/CLionProjects/Client/ClientAction.h
+ C:/Users/Misha/CLionProjects/Client/ClientNetwork.h
+ C:/Users/Misha/CLionProjects/Client/DecEnc.h
+ C:/Users/Misha/CLionProjects/Client/NetworkData.h
+ C:/Users/Misha/CLionProjects/Client/NetworkServices.h
 CMakeFiles/Client.dir/ClientNetwork.cpp.obj
- C:/Users/Misha/CLionProjects/seminarclient/ClientNetwork.cpp
- C:/Users/Misha/CLionProjects/seminarclient/ClientNetwork.h
- C:/Users/Misha/CLionProjects/seminarclient/NetworkData.h
- C:/Users/Misha/CLionProjects/seminarclient/NetworkServices.h
+ C:/Users/Misha/CLionProjects/Client/ClientNetwork.cpp
+ C:/Users/Misha/CLionProjects/Client/ClientNetwork.h
+ C:/Users/Misha/CLionProjects/Client/NetworkData.h
+ C:/Users/Misha/CLionProjects/Client/NetworkServices.h
 CMakeFiles/Client.dir/DecEnc.cpp.obj
  C:/OpenSSL-Win32/include/openssl/asn1.h
  C:/OpenSSL-Win32/include/openssl/async.h
@@ -90,8 +90,8 @@ CMakeFiles/Client.dir/DecEnc.cpp.obj
  C:/OpenSSL-Win32/include/openssl/tls1.h
  C:/OpenSSL-Win32/include/openssl/x509.h
  C:/OpenSSL-Win32/include/openssl/x509_vfy.h
- C:/Users/Misha/CLionProjects/seminarclient/DecEnc.cpp
- C:/Users/Misha/CLionProjects/seminarclient/DecEnc.h
+ C:/Users/Misha/CLionProjects/Client/DecEnc.cpp
+ C:/Users/Misha/CLionProjects/Client/DecEnc.h
 CMakeFiles/Client.dir/NetworkServices.cpp.obj
  C:/OpenSSL-Win32/include/openssl/asn1.h
  C:/OpenSSL-Win32/include/openssl/async.h
@@ -131,9 +131,9 @@ CMakeFiles/Client.dir/NetworkServices.cpp.obj
  C:/OpenSSL-Win32/include/openssl/tls1.h
  C:/OpenSSL-Win32/include/openssl/x509.h
  C:/OpenSSL-Win32/include/openssl/x509_vfy.h
- C:/Users/Misha/CLionProjects/seminarclient/DecEnc.h
- C:/Users/Misha/CLionProjects/seminarclient/NetworkServices.cpp
- C:/Users/Misha/CLionProjects/seminarclient/NetworkServices.h
+ C:/Users/Misha/CLionProjects/Client/DecEnc.h
+ C:/Users/Misha/CLionProjects/Client/NetworkServices.cpp
+ C:/Users/Misha/CLionProjects/Client/NetworkServices.h
 CMakeFiles/Client.dir/main.cpp.obj
  C:/OpenSSL-Win32/include/openssl/asn1.h
  C:/OpenSSL-Win32/include/openssl/bio.h
@@ -148,8 +148,8 @@ CMakeFiles/Client.dir/main.cpp.obj
  C:/OpenSSL-Win32/include/openssl/safestack.h
  C:/OpenSSL-Win32/include/openssl/stack.h
  C:/OpenSSL-Win32/include/openssl/symhacks.h
- C:/Users/Misha/CLionProjects/seminarclient/ClientAction.h
- C:/Users/Misha/CLionProjects/seminarclient/ClientNetwork.h
- C:/Users/Misha/CLionProjects/seminarclient/NetworkData.h
- C:/Users/Misha/CLionProjects/seminarclient/NetworkServices.h
- C:/Users/Misha/CLionProjects/seminarclient/main.cpp
+ C:/Users/Misha/CLionProjects/Client/ClientAction.h
+ C:/Users/Misha/CLionProjects/Client/ClientNetwork.h
+ C:/Users/Misha/CLionProjects/Client/NetworkData.h
+ C:/Users/Misha/CLionProjects/Client/NetworkServices.h
+ C:/Users/Misha/CLionProjects/Client/main.cpp
