@@ -12,29 +12,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="857c5fa3-d55d-4326-ad38-b0ccb86f4a0a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
       <change beforePath="$PROJECT_DIR$/ClientAction.cpp" afterPath="$PROJECT_DIR$/ClientAction.cpp" />
       <change beforePath="$PROJECT_DIR$/ClientAction.h" afterPath="$PROJECT_DIR$/ClientAction.h" />
-      <change beforePath="$PROJECT_DIR$/ClientNetwork.cpp" afterPath="$PROJECT_DIR$/ClientNetwork.cpp" />
-      <change beforePath="$PROJECT_DIR$/ClientNetwork.h" afterPath="$PROJECT_DIR$/ClientNetwork.h" />
-      <change beforePath="$PROJECT_DIR$/DecEnc.cpp" afterPath="$PROJECT_DIR$/DecEnc.cpp" />
-      <change beforePath="$PROJECT_DIR$/NetworkData.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetworkServices.cpp" afterPath="$PROJECT_DIR$/NetworkServices.cpp" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Client.dir/CXX.includecache" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Client.dir/CXX.includecache" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Client.dir/ClientAction.cpp.obj" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Client.dir/ClientAction.cpp.obj" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Client.dir/ClientNetwork.cpp.obj" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Client.dir/ClientNetwork.cpp.obj" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Client.dir/DecEnc.cpp.obj" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Client.dir/DecEnc.cpp.obj" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Client.dir/NetworkServices.cpp.obj" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Client.dir/NetworkServices.cpp.obj" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Client.dir/depend.internal" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Client.dir/depend.internal" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Client.dir/depend.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Client.dir/depend.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Client.dir/main.cpp.obj" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Client.dir/main.cpp.obj" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Client.dir/objects.a" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Client.dir/objects.a" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Client.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/Client.cbp" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Client.exe" afterPath="$PROJECT_DIR$/cmake-build-debug/Client.exe" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" afterPath="$PROJECT_DIR$/main.cpp" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -51,10 +30,20 @@
         <entry file="file://$PROJECT_DIR$/DecEnc.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-622">
-              <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ClientAction.h" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ClientAction.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="21" column="19" lean-forward="false" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -89,7 +78,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NetworkServices.h" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ClientAction.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ClientAction.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="36" column="22" lean-forward="false" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NetworkServices.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/NetworkServices.h">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
@@ -113,10 +112,10 @@
       <find>plainText</find>
       <find>str</find>
       <find>createRSA</find>
-      <find>getPrivKeyDest</find>
       <find>pk</find>
       <find>getPubKeyFromServer</find>
       <find>Max</find>
+      <find>getPrivKeyDest</find>
     </findStrings>
     <replaceStrings>
       <replace>./lib/</replace>
@@ -138,11 +137,11 @@
         <option value="$PROJECT_DIR$/NetworkServices.cpp" />
         <option value="$PROJECT_DIR$/NetworkData.h" />
         <option value="$PROJECT_DIR$/ClientNetwork.h" />
-        <option value="$PROJECT_DIR$/ClientAction.cpp" />
-        <option value="$PROJECT_DIR$/ClientAction.h" />
         <option value="$PROJECT_DIR$/ClientNetwork.cpp" />
         <option value="$PROJECT_DIR$/DecEnc.cpp" />
         <option value="$PROJECT_DIR$/main.cpp" />
+        <option value="$PROJECT_DIR$/ClientAction.cpp" />
+        <option value="$PROJECT_DIR$/ClientAction.h" />
       </list>
     </option>
   </component>
@@ -152,7 +151,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1346" />
@@ -239,10 +238,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72850000" />
+    <option name="totallyTimeSpent" value="72955000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14128843" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -421,7 +420,7 @@
         <state relative-caret-position="176">
           <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="17" />
           <folding>
-            <element signature="e#74#95#0" expanded="true" />
+            <element signature="e#74#95#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -438,9 +437,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
           <caret line="4" column="22" lean-forward="false" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -472,9 +469,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="22" lean-forward="false" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -506,9 +501,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="22" lean-forward="false" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -572,33 +565,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ClientAction.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-960">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ClientAction.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-300">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#74#95#0" expanded="true" />
-            <element signature="e#176#200#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ClientNetwork.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-92">
           <caret line="16" column="22" lean-forward="false" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="22" />
           <folding>
-            <element signature="e#141#162#0" expanded="true" />
+            <element signature="e#141#162#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -622,7 +594,7 @@
     <entry file="file://$PROJECT_DIR$/DecEnc.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-622">
-          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
@@ -657,6 +629,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="14" column="15" lean-forward="false" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClientAction.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="36" column="22" lean-forward="false" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClientAction.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="21" column="19" lean-forward="false" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
           <folding />
         </state>
       </provider>

@@ -19,7 +19,7 @@ char *ClientAction::getPubKeyFromServer() {
     return network_data;
 }
 
-void ClientAction::getPrivKeyDest() {
+void ClientAction::getPrivKey() {
     int data_length = network->receivePackets(network_data);
     this->priv_key = network_data;
 }
@@ -34,7 +34,7 @@ void ClientAction::receiveData(int save) {
     } while (data_length == -1);
     if (data_length > 0) {
         if (save) {
-            getPrivKeyDest();
+            getPrivKey();
             sendActionPackets((unsigned char *) this->pub_key.c_str(), 0);
             ClientAction::sendActionPackets((unsigned char *) this->pub_key.c_str(), 0);
         } else {
