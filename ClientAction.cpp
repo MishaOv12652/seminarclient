@@ -1,7 +1,3 @@
-//
-// Created by Misha on 21/01/2018.
-//
-
 #include "ClientAction.h"
 #include "DecEnc.h"
 #include <iostream>
@@ -42,7 +38,7 @@ void ClientAction::receiveData(int save) {
             sendActionPackets((unsigned char *) this->pub_key.c_str(), 0);
             ClientAction::sendActionPackets((unsigned char *) this->pub_key.c_str(), 0);
         } else {
-            int decrypted_length = decenc.private_decrypt((unsigned char *) network_data,data_length,
+            int decrypted_length = decenc.private_decrypt((unsigned char *) network_data, data_length,
                                                           (unsigned char *) priv_key.c_str(),
                                                           (unsigned char *) decrypted);
             cout << "Server> " << string(decrypted, 0, decrypted_length) << endl;

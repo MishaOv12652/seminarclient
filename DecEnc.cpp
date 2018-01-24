@@ -1,10 +1,6 @@
-//
-// Created by Misha on 22/01/2018.
-//
-
 #include "DecEnc.h"
 #include <string>
-#include <direct.h>
+
 
 int padding = RSA_PKCS1_OAEP_PADDING;
 using namespace std;

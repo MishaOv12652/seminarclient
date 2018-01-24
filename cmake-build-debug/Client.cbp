@@ -100,9 +100,6 @@
 		<Unit filename="C:/Users/Misha/CLionProjects/Client/DecEnc.h">
 			<Option target="Client"/>
 		</Unit>
-		<Unit filename="C:/Users/Misha/CLionProjects/Client/NetworkData.h">
-			<Option target="Client"/>
-		</Unit>
 		<Unit filename="C:/Users/Misha/CLionProjects/Client/NetworkServices.cpp">
 			<Option target="Client"/>
 		</Unit>

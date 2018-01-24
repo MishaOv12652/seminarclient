@@ -411,8 +411,6 @@ windows.h
 -
 ClientNetwork.h
 C:/Users/Misha/CLionProjects/Client/ClientNetwork.h
-NetworkData.h
-C:/Users/Misha/CLionProjects/Client/NetworkData.h
 openssl/rsa.h
 -
 sstream
@@ -433,15 +431,11 @@ ws2tcpip.h
 -
 stdio.h
 -
-NetworkData.h
-C:/Users/Misha/CLionProjects/Client/NetworkData.h
 
 C:/Users/Misha/CLionProjects/Client/DecEnc.cpp
 DecEnc.h
 C:/Users/Misha/CLionProjects/Client/DecEnc.h
 string
--
-direct.h
 -
 
 C:/Users/Misha/CLionProjects/Client/DecEnc.h
@@ -464,15 +458,9 @@ openssl/err.h
 stdio.h
 -
 
-C:/Users/Misha/CLionProjects/Client/NetworkData.h
-string.h
--
-
 C:/Users/Misha/CLionProjects/Client/NetworkServices.cpp
 NetworkServices.h
 C:/Users/Misha/CLionProjects/Client/NetworkServices.h
-DecEnc.h
-C:/Users/Misha/CLionProjects/Client/DecEnc.h
 
 C:/Users/Misha/CLionProjects/Client/NetworkServices.h
 winsock2.h

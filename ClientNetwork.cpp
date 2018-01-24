@@ -1,7 +1,3 @@
-//
-// Created by Misha on 21/01/2018.
-//
-
 #include "ClientNetwork.h"
 ClientNetwork::ClientNetwork(void)
 {

@@ -11,7 +11,7 @@
 #include "NetworkServices.h"
 #include <ws2tcpip.h>
 #include <stdio.h>
-#include "NetworkData.h"
+#define MAX_PACKET_SIZE 2000000
 
 // size of our buffer
 #define DEFAULT_BUFLEN 2048

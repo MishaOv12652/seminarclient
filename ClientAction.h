@@ -1,7 +1,3 @@
-//
-// Created by Misha on 21/01/2018.
-//
-
 #ifndef CLIENT_CLIENTACTION_H
 #define CLIENT_CLIENTACTION_H
 #pragma once
@@ -9,7 +5,7 @@
 #include <winsock2.h>
 #include <windows.h>
 #include "ClientNetwork.h"
-#include "NetworkData.h"
+#define MAX_PACKET_SIZE 2000000
 #include <openssl/rsa.h>
 #include <sstream>
 
